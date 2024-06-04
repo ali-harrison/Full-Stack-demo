@@ -80,6 +80,5 @@ This challenge can be used for the following trello assessments:
  
 - **WD03 - Forms**
 - **WD04 - Fullstack** - **_Note_** - you will need to deploy this challenge to dokku to pass this trello assessment.
-- **CP02 - Use two or more software quality practises to improve an application**
 
 [Provide feedback on this repo](https://docs.google.com/forms/d/e/1FAIpQLSfw4FGdWkLwMLlUaNQ8FtP2CTJdGDUv6Xoxrh19zIrJSkvT4Q/viewform?usp=pp_url&entry.1958421517=todo-full-stack)
