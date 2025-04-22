@@ -1,84 +1,39 @@
-# TODO App
+TODO App
+This project is a full-stack TODO application designed to enhance my skills across the complete technology stack—from database design to server-side logic, and from API integration to a dynamic React frontend. Below is an outline of the tasks I completed and the technologies I employed.
 
-For this challenge, we will build a todo app (which is a common way to practice a new technology), using the full stack! From the database to the server, the API client, React and React Query, this app will ask you to use everything you've learned.
+Project Overview
+This TODO app serves as a practical exercise in applying full-stack development principles and practices. It involves setting up a database, building server-side APIs, and integrating them with a React frontend using React Query for efficient data fetching and state management.
 
-## Setup
+Completed Tasks
+Setup
+Cloning and Installation: Successfully cloned the repository, installed all necessary packages, and started the development server using npm run dev.
+Back End (Server-side)
+Database Design and Implementation:
 
-### 0. Cloning and installation
+Designed a robust database schema to store task details, including fields for task description, priority level, and completion status.
+Implemented database migrations and seeded initial data to facilitate testing and development.
+API Development:
 
-- [x] Clone this repo, navigate to it, install packages, and start the server with `npm run dev`
-  <details style="padding-left: 2em">
-    <summary>Tip</summary>
+Developed a comprehensive API to interact with the database, supporting operations such as listing tasks, adding new tasks, updating existing tasks, and deleting tasks.
+Conducted thorough testing of the API endpoints using Insomnia to ensure correct functionality and reliability.
+Front End (Client-side)
+React Component Development:
 
-  You may also want to start a new branch
+Built a React component structure with static HTML to serve as the foundation of the app, adhering closely to the provided design templates for layout and styling.
+API Client Integration:
 
-  ```sh
-  cd todo-full-stack
-  npm i
-  git checkout -b <branchname>
-  npm run dev
-  ```
+Developed a client-side API integration layer to facilitate communication between the React frontend and the server-side API.
+Data Fetching and Mutation with React Query:
 
-  </details>
+Implemented data fetching functionality using the useQuery hook to retrieve task data efficiently from the API.
+Utilized the useMutation hook to manage task creation, updates, and deletions, ensuring seamless data manipulation and UI updates.
+Stretch Goals
+Explored additional stretch challenges to further refine and enhance the application's features and performance.
+Deployment
+Note: For the WD04 Fullstack assessment, deployment to Dokku is required. This aspect is part of the ongoing development and deployment process.
+Feedback and Assessment
+This project is submitted as part of the following Trello assessments:
 
-- [x] See the designs [here](http://localhost:5173/designs/index.html)
-
-<details>
-  <summary>More about using <code>npm</code> vs <code>npx</code></summary>
-
-- When running knex, run `npm run knex <command>`, e.g. `npm run knex migrate:latest` rather than using `npx`
-</details>
-
----
-
-## Requirements
-
-Here's a list of steps in case they are useful. You can build in any order you like though ;)
-
-## Back end (Server-side)
-
-### 1. Building the database
-
-- [x] Design a database to store a list of tasks, e.g. task details, priority, completed yes/no
-- [x] Build the migrations and seed data
-
-### 2. Building the API
-
-- [x] Build an API (back end route) to get the information from your database (list, add, update and delete)
-- [x] Test your API with Insomnia
-
-## Front end (Client-side)
-
-### 3. Setting the stage
-
-- [x] Build a React component with static html
-- [x] Follow the [design](./public/designs/index.html) template for classNames and html element layout
-
-### 4. Building the API client
-
-- [x] Build API client in the front end
-
-### 5. Querying Data 
-
-- [x] Write a query with the `useQuery` hook to fetch the task data from the API
-- [x] Mutate data with the `useMutation` hook to create, update, and delete task data via the API 
-
----
-
-## Stretch
-
-<details>
-  <summary>More about stretch challenges</summary>
-
-- Forms can be tough to build accessibly. First ensure all parts of your form can be reached and used with keyboard-only navigation. Then test your form page with the WAVE browser extension, and fix any accessibility issues it detects
-
-</details>
-
-## Submitting this Challenge for Marking
-
-This challenge can be used for the following trello assessments:
- 
-- **WD03 - Forms**
-- **WD04 - Fullstack** - **_Note_** - you will need to deploy this challenge to dokku to pass this trello assessment.
-
-[Provide feedback on this repo](https://docs.google.com/forms/d/e/1FAIpQLSfw4FGdWkLwMLlUaNQ8FtP2CTJdGDUv6Xoxrh19zIrJSkvT4Q/viewform?usp=pp_url&entry.1958421517=todo-full-stack)
+WD03 - Forms
+WD04 - Fullstack
+Feedback on the repository and the project is welcomed to further improve and refine the application.
